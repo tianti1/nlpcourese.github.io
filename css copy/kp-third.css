@@ -1,0 +1,365 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.pd-clear{
+	padding: 0;
+	max-width: 1180px;
+}
+
+/*---------------------------------*/
+.header{
+	background: #18bbcc;
+}
+
+.header-logo{
+	height: 80px;
+}
+
+.header-logo img{
+	margin-left: 20px;
+}
+
+.header-nav{
+	height: 40px;
+	background: #02567b;
+}
+
+.header-ul{
+	margin: 0;
+	padding: 0;
+}
+
+.header-ul>li{
+	float: left;
+	list-style: none;
+	height: 40px;
+	padding: 0 16px;
+}
+
+.header-ul>li:hover,.header-li-active{
+	background: #ff7337;
+}
+
+.header-ul>li a{
+	color: #FFFFFF;
+	line-height: 40px;
+	font-size: 16px;
+}
+
+.header-login{
+	height: 40px;
+	padding: 0;
+	margin: 0 4px 0 0;
+}
+
+.header-login>li{
+	float: left;
+	list-style: none;
+	margin: 0 8px;
+}
+
+.header-login>li a{
+	font-size: 14px;
+	color: #ffffff;
+	background: #7ba7ba;
+	padding: 3px 8px;
+	line-height: 40px;
+}
+/*------------------------------------------------header部分结束*/
+
+.kp-bg{
+	background: url(../i/kp/kp-bg.png) no-repeat;
+	height: 1317px;
+	padding-top: 256px;
+}
+
+/*-----------------------------------------------------------------↓kp-rank排行榜*/
+.kp-rank{
+	background: url(../i/kp/kp-rank.png) no-repeat;
+	width: 338px;
+	height: 500px;
+	display: block;
+	
+	margin-top: 62px;
+	margin-left: 65px;
+	position: relative;
+	z-index: 1;
+}
+
+.kp-rank-ul{
+	padding-top: 95px;
+	padding-left: 0;
+	width: 250px;
+	margin:0 0 0 25px;
+}
+
+.kp-rank-ul li{
+	list-style: none;
+	width: 250px;
+	padding:4px;
+	border-bottom: 1px solid #7baabb ;
+}
+
+.kp-rank-ul li:hover{
+	background: #cae7e9;
+	border-radius: 8px;
+}
+
+.kp-rank-ul li:hover a{
+	color: #144e9b;
+}
+
+.kp-rank-ul li a{
+	font-size: 16px;
+	color: #7aafd5;
+	display: block;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.kp-rank-ul li a em{
+	color: #6aa0ad;
+	font-size: 18px;
+	padding-right: 4px;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.kp-rank-more{
+	margin-right: 80px;
+	margin-top: 10px;
+	text-shadow: 1px 2px 3px;
+}
+
+/*-----------------------------------------------------------------↓kp-review精彩回顾*/
+.kp-review{
+	background: url(../i/kp/kp-review.png) no-repeat;
+	width: 434px;
+	height: 306px;
+	display: block;
+	
+	margin-top: -30px;
+	margin-left: 50px;
+	position: relative;
+}
+
+.kp-review-ul{
+	width: 330px;
+	padding-top: 175px;
+	padding-left: 0;
+	margin-left: 20px;
+}
+
+.kp-review-ul li{
+	width: 100px;
+	padding: 0 8px;
+	display: inline-block;
+	list-style: none;
+}
+
+.kp-review-ul li img{
+	width: 100px;
+	display: block;
+}
+
+.kp-review-ul li a{
+	display: block;
+	font-size: 14px;
+	color: #6aa0ad;
+	width: 84px;
+	text-align: center;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/*-----------------------------------------------------------------↓kp-hot热门推荐*/
+.kp-hot{
+	background: url(../i/kp/kp-hot.png) no-repeat;
+	width: 923px;
+	height: 433px;
+	display: block;
+	
+	margin-top: -850px;
+	position: relative;
+	z-index: 0;
+}
+
+.kp-hot-ul{
+	margin-left: 180px;
+	padding-top: 174px;
+	margin-bottom: 0;
+}
+
+.kp-hot-box{
+	list-style: none;
+	width: 595px;
+	margin-top: 12px;
+}
+
+.kp-hot-img{
+	width: 130px;
+	height: 84px;
+	margin-top: 2px;
+}
+
+.kp-hot-sum{
+	display: block;
+	margin-left: 20px;
+	height: 88px;
+	width: 445px;
+}
+
+.kp-hot-sum h2{
+	font-size: 16px;
+	color: #444444;
+	margin: -3px 0 0 0;
+	line-height: 24px;
+	width: 445px;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.kp-hot-sum a{
+	display: block;
+	height: 64px;
+	width: 445px;
+	font-size: 14px;
+	color: #5d5c5c;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.kp-hot-more{
+	margin-right:130px ;
+}
+
+/*-----------------------------------------------------------------↓kp-list文章列表*/
+.kp-list{
+	background: url(../i/kp/kp-list.png) no-repeat;
+	width: 708px;
+	height: 538px;
+	display: block;
+	
+	margin-top: -30px;
+	margin-left: 200px;
+}
+
+.kp-list-ul{
+	width: 560px;
+	padding-top: 190px;
+	padding-left: 0;
+	margin-left: 60px;
+}
+
+.kp-list-ul-box{
+	list-style: none;
+	padding: 8px 0;
+	border-bottom: 1px dashed #b2df97;
+}
+
+.kp-list-ul-box img{
+	width: 63px;
+	height: 46px;
+}
+
+.kp-list-ul-box a{
+	display: block;
+	font-size: 16px;
+	width: 260px;
+	line-height: 46px;
+	margin-left: 7px;
+	
+	color: #68905a;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.kp-list-ul-time{
+	width: 82px;
+	margin-left: 8px;
+	font-size: 16px;
+	line-height: 46px;
+	display: block;
+	
+	color: #68905a;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.kp-list-ul-autor{
+	width: 128px;
+	margin-left: 12px;
+	font-size: 16px;
+	line-height: 46px;
+	
+	color: #68905a;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.kp-article-page{
+	margin: 0 50px 0 0 ;
+	padding: 0;
+}
+
+.kp-article-page>li{
+	float: left;
+	list-style: none;
+	margin: 0 6px;
+	font-size: 14px;
+}
+
+.kp-article-page>li a{
+	color: #3B3B3B;
+	font-weight: bold;
+}
+
+.kp-article-page>li a:hover,.kp-article-page-active{
+	color: #419920 !important;
+	font-weight: bold;
+}
+
+/*-------------------------------------------------------------↓footer部分*/
+.footer{
+	background: #F0f0f0;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.foot-ul{
+	margin:0 auto; 
+	padding: 0;
+	text-align: center;
+}
+
+.foot-ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 4px;
+}
+
+.foot-ul li a{
+	color: #1d8185;
+	font-weight: 550;
+	font-size: 14px;
+}
+
+.footer p{
+	color: #1d8185;
+	font-weight: 550;
+	font-size: 14px;
+	margin: 0;
+}
+

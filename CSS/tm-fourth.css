@@ -1,0 +1,351 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.pd-clear{
+	padding: 0;
+	max-width: 1180px;
+}
+
+/*---------------------------------*/
+.header{
+	background: #18bbcc;
+}
+
+.header-logo{
+	height: 80px;
+}
+
+.header-logo img{
+	margin-left: 20px;
+}
+
+.header-nav{
+	height: 40px;
+	background: #02567b;
+}
+
+.header-ul{
+	margin: 0;
+	padding: 0;
+}
+
+.header-ul>li{
+	float: left;
+	list-style: none;
+	height: 40px;
+	padding: 0 16px;
+}
+
+.header-ul>li:hover,.header-li-active{
+	background: #ff7337;
+}
+
+.header-ul>li a{
+	color: #FFFFFF;
+	line-height: 40px;
+	font-size: 16px;
+}
+
+.header-login{
+	height: 40px;
+	padding: 0;
+	margin: 0 4px 0 0;
+}
+
+.header-login>li{
+	float: left;
+	list-style: none;
+	margin: 0 8px;
+}
+
+.header-login>li a{
+	font-size: 14px;
+	color: #ffffff;
+	background: #7ba7ba;
+	padding: 3px 8px;
+	line-height: 40px;
+}
+/*------------------------------------------------header部分结束*/
+
+.tm-bg{
+	background: url(../i/tm/fourth/tm-bg.png) no-repeat;
+	height: 1560px;
+}
+
+.tm-aside{
+	margin-top: 440px;
+	margin-left: 63px;
+}
+
+.tm-main{
+	background: url(../i/tm/fourth/main.png) no-repeat;
+	width: 826px;
+	height: 1118px;
+	
+	margin-top: 107px;
+	margin-left: 30px;
+}
+
+/*-----------------------------------------------------------------↓tm-hot*/
+.tm-hot{
+	float: right;
+	width: 290px;
+	margin-right: 115px;
+	margin-top: 120px;
+	height: 215px;
+}
+
+.tm-hot-img img{
+	width: 120px;
+	display: block;
+	margin-top: 10px;
+}
+
+.tm-hot-content{
+	width: 150px;
+	margin-left: 20px;
+}
+
+.tm-hot-content-a,.tm-hot-content-a:hover{
+	color: #6bd4e1;
+	font-size: 14px;
+	height: 170px;
+	display: block;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: initial;
+}
+/*-----------------------------------------------------------↓middle-lt 小导航*/
+
+.tm-menu{
+	background: url(../i/tm/middle-lt.png) no-repeat;
+	width: 204px;
+	height: 303px;
+	display: block;
+}
+
+.tm-menu-ul{
+	padding-top: 85px;
+	padding-left: 36px;
+}
+
+.tm-menu-ul li{
+	list-style: none;
+}
+
+/*-----------------------------------------------------------↓tm-review*/
+.tm-review{
+	background: url(../i/tm/fourth/review.png) no-repeat;
+	width: 234px;
+	height: 588px;
+	margin-top: -30px;
+	margin-left: -10px;
+}
+
+.tm-review-ul{
+	margin: 0;
+	padding: 0;
+	
+	padding-top: 114px;
+	padding-left: 60px;
+}
+
+.tm-review-ul li{
+	list-style: none;
+	position: relative;
+	margin: 16px 0;
+}
+
+.tm-review-img{
+	display: block;
+	width: 130px;
+}
+
+.tm-review-h2{
+	font-size: 14px;
+	color: #FFFFFF;
+	height: 30px;
+	line-height: 30px;
+	width: 130px;
+	position: absolute;
+	bottom: 0;
+	background: rgb(0,0,0);
+	background:rgba(0,0,0,.4);
+	
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/*--------------------------------------------------------------------↓tm-rank*/
+
+.tm-rank{
+	margin-top: -40px;
+	margin-left: 20px;
+}
+
+.tm-rank-ul{
+	margin: 0;
+	padding: 0;
+}
+
+.tm-rank-ul li{
+	list-style: none;
+	margin: 4px 0;
+}
+
+.tm-rank-ul li a{
+	color: #3B3B3B;
+	font-size: 16px;
+	width: 193px;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.tm-rank-ul em{
+	font-style: normal;
+	font-size: 18px;
+	color: #f4a85a;
+	font-weight: bold;
+	padding: 0 4px;
+}
+
+/*---------------------------------------------------------------↓tm-article 文章模块*/
+
+.tm-article{
+	width: 752px;
+	padding-top: 50px;
+	margin-left: 40px;
+}
+
+.tm-content-article-title h1{
+	margin: 16px 0 0 4px;
+	font-size: 16px;
+	color: #828282;
+}
+
+.tm-content-article-time{
+	color: #a0a0a0;
+	font-size: 14px;
+	margin: 6px 0 0 4px;
+}
+
+.tm-content-article-info{
+	padding: 0 0 4px 0;
+	border-bottom: 1px solid #e1a93a;
+}
+
+.tm-content-article-from,.tm-content-article-count{
+	color: #a0a0a0;
+	font-size: 14px;
+	margin: 4px 0 0 4px;
+}
+
+.tm-content-article-count em{
+	color: #E1A93A;
+	font-style: normal;
+	margin-right: 8px;
+}
+
+.tm-content-article-main{
+	padding: 16px 0;
+	height: 500px;
+	
+	overflow: auto;
+	scrollbar-base-color: #88e4dd;
+}
+
+/*----------------------------------------------------------------↓tm-comment模块*/
+
+.tm-content-comment{
+	width: 869px;
+	height: 468px;
+	position: relative;
+	background: #47becb;
+	background: url(../i/tm/fourth/comment.png) no-repeat;
+}
+
+.tm-content-comment-title img{
+	display: block;
+	position: absolute;
+	top: -30px;
+	left: -15px;
+}
+
+.tm-content-comment-list{
+	padding-top: 70px;
+	padding-left: 130px;
+}
+
+.tm-content-comment-list>li{
+	list-style: none;
+	margin: 10px 0;
+}
+
+.tm-content-comment-list-user img{
+	display: block;
+	width: 35px;
+	height: 35px;
+	border-radius: 5px;
+}
+
+.tm-content-comment-list-main{
+	display: block;
+	margin-left: 5px;
+	width: 570px;
+	
+	font-size: 14px;
+	line-height: 35px;
+	color: #6c6c6c;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.tm-content-comment-bg{
+	display: block;
+	position: absolute;
+	
+	bottom: 0px;
+	right: -100px;
+}
+
+/*-------------------------------------------------------------↓footer部分*/
+.footer{
+	background: #F0f0f0;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.foot-ul{
+	margin:0 auto; 
+	padding: 0;
+	text-align: center;
+}
+
+.foot-ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 4px;
+}
+
+.foot-ul li a{
+	color: #1d8185;
+	font-weight: 550;
+	font-size: 14px;
+}
+
+.footer p{
+	color: #1d8185;
+	font-weight: 550;
+	font-size: 14px;
+	margin: 0;
+}
+

@@ -1,0 +1,323 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.pd-clear{
+	padding: 0;
+	max-width: 1180px;
+}
+
+/*---------------------------------*/
+.header{
+	background: #18bbcc;
+}
+
+.header-logo{
+	height: 80px;
+}
+
+.header-logo img{
+	margin-left: 20px;
+}
+
+.header-nav{
+	height: 40px;
+	background: #02567b;
+}
+
+.header-ul{
+	margin: 0;
+	padding: 0;
+}
+
+.header-ul>li{
+	float: left;
+	list-style: none;
+	height: 40px;
+	padding: 0 16px;
+}
+
+.header-ul>li:hover,.header-li-active{
+	background: #ff7337;
+}
+
+.header-ul>li a{
+	color: #FFFFFF;
+	line-height: 40px;
+	font-size: 16px;
+}
+
+.header-login{
+	height: 40px;
+	padding: 0;
+	margin: 0 4px 0 0;
+}
+
+.header-login>li{
+	float: left;
+	list-style: none;
+	margin: 0 8px;
+}
+
+.header-login>li a{
+	font-size: 14px;
+	color: #ffffff;
+	background: #7ba7ba;
+	padding: 3px 8px;
+	line-height: 40px;
+}
+/*------------------------------------------------header部分结束*/
+
+.kp-bg{
+	background: url(../i/kp/kp-bg.png) no-repeat;
+	height: 1317px;
+	padding-top: 256px;
+}
+
+.kp-main{
+	background: url(../i/kp/fourth/bg.png) no-repeat;
+	height: 1103px;
+	width: 908px;
+	display: block;
+	margin-top: -880px;
+	margin-right: -30px;
+}
+
+/*-----------------------------------------------------------------↓kp-rank排行榜*/
+.kp-rank{
+	background: url(../i/kp/kp-rank.png) no-repeat;
+	width: 338px;
+	height: 500px;
+	display: block;
+	
+	margin-top: 62px;
+	margin-left: 65px;
+	position: relative;
+	z-index: 1;
+}
+
+.kp-rank-ul{
+	padding-top: 95px;
+	padding-left: 0;
+	width: 250px;
+	margin:0 0 0 25px;
+}
+
+.kp-rank-ul li{
+	list-style: none;
+	width: 250px;
+	padding:4px;
+	border-bottom: 1px solid #7baabb ;
+}
+
+.kp-rank-ul li:hover{
+	background: #cae7e9;
+	border-radius: 8px;
+}
+
+.kp-rank-ul li:hover a{
+	color: #144e9b;
+}
+
+.kp-rank-ul li a{
+	font-size: 16px;
+	color: #7aafd5;
+	display: block;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.kp-rank-ul li a em{
+	color: #6aa0ad;
+	font-size: 18px;
+	padding-right: 4px;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.kp-rank-more{
+	margin-right: 80px;
+	margin-top: 10px;
+	text-shadow: 1px 2px 3px;
+}
+
+/*-----------------------------------------------------------------↓kp-review精彩回顾*/
+.kp-review{
+	background: url(../i/kp/kp-review.png) no-repeat;
+	width: 434px;
+	height: 306px;
+	display: block;
+	
+	margin-top: -30px;
+	margin-left: 50px;
+	position: relative;
+}
+
+.kp-review-ul{
+	width: 330px;
+	padding-top: 175px;
+	padding-left: 0;
+	margin-left: 20px;
+}
+
+.kp-review-ul li{
+	width: 100px;
+	padding: 0 8px;
+	display: inline-block;
+	list-style: none;
+}
+
+.kp-review-ul li img{
+	width: 100px;
+	display: block;
+}
+
+.kp-review-ul li a{
+	display: block;
+	font-size: 14px;
+	color: #6aa0ad;
+	width: 84px;
+	text-align: center;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/*+------------------------------------------------------------------↓kp-article*/
+
+.kp-article{
+	padding-top: 150px;
+	margin-left: 130px;
+	width: 675px;
+}
+
+.kp-content-article-title h1{
+	margin: 8px 0 0 4px;
+	font-size: 16px;
+	color: #828282;
+}
+
+.kp-content-article-time{
+	color: #a0a0a0;
+	font-size: 14px;
+	margin: 6px 0 0 4px;
+}
+
+.kp-content-article-info{
+	padding: 0 0 4px 0;
+}
+
+.kp-content-article-from,.kp-content-article-count{
+	color: #a0a0a0;
+	font-size: 14px;
+	margin: 4px 0 0 4px;
+}
+
+.kp-content-article-count em{
+	color: #E1A93A;
+	font-style: normal;
+	margin-right: 8px;
+}
+
+.kp-content-article-main{
+	padding: 16px 0;
+	height: 390px;
+	
+	overflow: auto;
+	scrollbar-base-color: #88e4dd;
+}
+
+/*----------------------------------------------------------------↓kp-comment*/
+
+.kp-comment{
+	padding-top:70px ;
+	margin-left: 150px;
+}
+
+.kp-comment-ul{
+	margin: 0;
+	padding: 0;
+	width: 630px;
+}
+
+.kp-comment-box{
+	list-style: none;
+	padding: 7px 0;
+	border-bottom: 1px dashed #acdb8a;
+}
+
+.kp-comment-box img{
+	width: 60px;
+	height: 60px;
+}
+
+.kp-comment-sum{
+	display: block;
+	height: 60px;
+	width: 570px;
+	padding-left: 26px;
+	font-size: 16px;
+	line-height: 30px;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.kp-article-page{
+	margin: 30px 0 0 0 ;
+	padding: 0;
+}
+
+.kp-article-page>li{
+	float: left;
+	list-style: none;
+	margin: 0 6px;
+	font-size: 14px;
+}
+
+.kp-article-page>li a{
+	color: #3B3B3B;
+	font-weight: bold;
+}
+
+.kp-article-page>li a:hover,.kp-article-page-active{
+	color: #419920 !important;
+	font-weight: bold;
+}
+
+/*-------------------------------------------------------------↓footer部分*/
+.footer{
+	background: #F0f0f0;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.foot-ul{
+	margin:0 auto; 
+	padding: 0;
+	text-align: center;
+}
+
+.foot-ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 4px;
+}
+
+.foot-ul li a{
+	color: #1d8185;
+	font-weight: 550;
+	font-size: 14px;
+}
+
+.footer p{
+	color: #1d8185;
+	font-weight: 550;
+	font-size: 14px;
+	margin: 0;
+}
+

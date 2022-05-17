@@ -1,0 +1,364 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.pd-clear{
+	padding: 0;
+	max-width: 1180px;
+}
+
+/*---------------------------------*/
+.header{
+	background: #18bbcc;
+}
+
+.header-logo{
+	height: 80px;
+}
+
+.header-logo img{
+	margin-left: 20px;
+}
+
+.header-nav{
+	height: 40px;
+	background: #02567b;
+}
+
+.header-ul{
+	margin: 0;
+	padding: 0;
+}
+
+.header-ul>li{
+	float: left;
+	list-style: none;
+	height: 40px;
+	padding: 0 16px;
+}
+
+.header-ul>li:hover,.header-li-active{
+	background: #ff7337;
+}
+
+.header-ul>li a{
+	color: #FFFFFF;
+	line-height: 40px;
+	font-size: 16px;
+}
+
+.header-login{
+	height: 40px;
+	padding: 0;
+	margin: 0 4px 0 0;
+}
+
+.header-login>li{
+	float: left;
+	list-style: none;
+	margin: 0 8px;
+}
+
+.header-login>li a{
+	font-size: 14px;
+	color: #ffffff;
+	background: #7ba7ba;
+	padding: 3px 8px;
+	line-height: 40px;
+}
+/*------------------------------------------------header部分结束*/
+.tk-bg{
+	background: url(../i/tk/tk-bg.png) no-repeat;
+	width: 1180px;
+	height: 1910px;
+}
+
+.tk-aside{
+	margin-top:495px;
+	margin-left: 50px;
+}
+
+.tk-main{
+	margin-top: 310px;
+	margin-left: 20px;
+}
+
+
+/*------------------------------------------------------------↓tk-menu*/
+
+.tk-menu{
+	background: url(../i/tk/menu.png) no-repeat;
+	width: 230px;
+	height: 397px;
+}
+
+.tk-menu-ul{
+	padding: 0;
+	margin: 0;
+	padding-left: 20px;
+	padding-top: 130px;
+}
+
+.tk-menu-ul li{
+	list-style: none;
+	margin: 8px 0;
+}
+
+.tk-menu-ul li:nth-child(2){
+	margin-left: 20px;
+}
+
+.tk-menu-ul li:nth-child(3){
+	margin-left: 20px;
+}
+
+.tk-menu-ul li:nth-child(4){
+	margin-left: 5px;
+}
+
+/*--------------------------------------------------------------tk-ch*/
+
+.tk-ch{
+	margin-top: 10px;
+}
+
+.tk-ch-content{
+	width: 208px;
+	position: relative;
+}
+
+.tk-ch-content h3{
+	margin: 0;
+	font-size: 14px;
+	display: block;
+	width: 208px;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.tk-ch-a{
+	font-size: 14px;
+	color: #d2d2d2;
+	line-break: 20px;
+	display: block;
+	height: 60px;
+	width: 208px;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/*---------------------------------------------------------tk-comment*/
+
+.tk-comment{
+	background: url(../i/tk/comment.png) no-repeat;
+	width: 297px;
+	height: 513px;
+	margin-top: 20px;
+	margin-left: -20px;
+}
+
+.tk-comment-ul{
+	padding: 0;
+	margin: 0;
+	
+	padding-top: 70px;
+	padding-left: 30px;
+}
+
+.tk-comment-ul li{
+	list-style: none;
+	width: 220px;
+	padding: 5px 8px;
+	border-bottom: 1px dashed #a78a73;
+}
+
+.tk-comment-img{
+	width: 55px;
+	height: 55px;
+	display: block;
+}
+
+.tk-comment-user{
+	font-size: 14px;
+	line-height: 20px;
+	width: 143px;	
+	padding-left: 8px;
+	
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.tk-comment-detail{
+	font-size: 14px;
+	line-height: 35px;
+	width: 143px;
+	padding-left: 8px;
+	
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/*-------------------------------------------------------------tk-rank*/
+.tk-rank{
+	margin-left: 75px;
+}
+
+.tk-rank-ul{
+	background: #e5f1f7;
+	width: 650px;
+	height: 180px;
+	border-radius: 8px;
+	margin: 0;
+}
+
+.tk-rank-ul>li{
+	float: left;
+	list-style: none;
+	width: 180px;
+	margin: 0 8px;
+	padding-bottom: 8px;
+	padding-top: 4px;
+	height: 90px;
+	border-bottom: 1px solid #fff;
+}
+
+.tk-rank-ul>li:nth-child(2n+1) .tk-rank-h3{
+	font-size: 16px;
+	color: #f75858;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.tk-rank-ul>li:nth-child(2n) .tk-rank-h3{
+	font-size: 16px;
+	color: #01aee0;
+	line-height: 30px;	
+	font-weight: bold;
+}
+
+.tk-rank-ul>li a,.tk-rank-ul>li a:hover{
+	font-size: 14px;
+	color: #747373;
+	height: 50px;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/*--------------------------------------------------------------图片列表-*/
+.tk-list{
+	background:#489cc9;
+	width: 822px;
+	height: 1200px;
+	border-radius: 12px;
+	margin-top: 20px;
+	box-shadow: 2px 2px 6px;
+	position: relative;
+}
+
+.tk-list-title{
+	margin-left: 30px;
+}
+
+.tk-list-ul{
+	padding: 0;
+	margin: 0;
+	padding: 0 20px;
+	margin-left: 60px;
+}
+
+.tk-list-ul li{
+	float: left;
+	padding: 0 16px;
+	list-style: none;
+	position: relative;
+	margin: 8px 0;
+}
+
+.tk-list-img{
+	width: 190px;
+	display: block;
+}
+
+.tk-list-a,.tk-list-a:hover{
+	width: 190px;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #FFFFff;
+	background: rgba(0,0,0,0.4);
+	display: block;
+	position:absolute;
+	bottom: 0;
+	
+	padding: 0 8px;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: ;
+}
+
+
+.wkx-article-page{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	padding: 0;
+}
+
+.wkx-article-page>li{
+	float: left;
+	list-style: none;
+	margin: 0 6px;
+	font-size: 16px;
+}
+
+.wkx-article-page>li a{
+	color: #fff;
+	font-weight: bold;
+}
+
+.wkx-article-page>li a:hover,.wkx-article-page-active{
+	color: #419920 !important;
+	font-weight: bold;
+}
+
+/*-------------------------------------------------------------↓footer部分*/
+.footer{
+	background: #F0f0f0;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.foot-ul{
+	margin:0 auto; 
+	padding: 0;
+	text-align: center;
+}
+
+.foot-ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 4px;
+}
+
+.foot-ul li a{
+	color: #1d8185;
+	font-weight: 550;
+	font-size: 14px;
+}
+
+.footer p{
+	color: #1d8185;
+	font-weight: 550;
+	font-size: 14px;
+	margin: 0;
+}
+

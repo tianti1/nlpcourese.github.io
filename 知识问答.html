@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8">
+	<title>知识问答小版块</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+	<style>
+		<!--
+	/*====导航栏不动部分====*/
+			/*头部*/
+			header{width:88%;
+					margin:0 auto;
+					margin-top:-10px;
+					background-color:#B6DBC6}/*备用背景（图片背景无法正常显示时运用）*/
+		
+			/*导航栏*/
+			nav{padding-top:20px;
+				background-image:url(img/201818340406-huangyuxuan-201818340407-jiazhongqi-06005.png);
+				height:65px}/*图片背景*/
+			ul{list-style-type:none;
+				margin-left:15%;
+				margin-top:3px;}
+			li{float:left;
+				margin-left:50px}
+			ul li a{text-decoration:none;
+				color:#FFFFFF;
+				font-family:"Microsoft YaHei";
+				font-size:18px;
+				display:block;
+				border:1.8px solid #FFFFFF;
+				border-radius:30px;
+				padding-right:10px;
+				padding-left:10px;
+				padding-top:4px;
+				padding-bottom: 4px}
+		.background{background-color: rgba(255,255,255,0.2);
+					border-radius:30px;
+					border: none}
+			header a:hover{color:#507962}
+			main a:hover{opacity:0.4}/*鼠标放置变色*/
+			div a{text-decoration:none;
+				color:#FFFFFF;
+				font-family:"Microsoft YaHei";
+				font-size:18px;
+				display:block;}
+		
+			/*logo*/
+			.logo{float:left;
+				margin-left:38px;
+				margin-top:13px}
+		
+		/*标题框*/
+		.title{text-align:center;
+				background-color:#B6DBC6;
+				color:#FFFFFF;
+				padding-top:50px;
+				padding-bottom:150px;
+				line-height:75px;
+				letter-spacing:12px}
+		h1{font-size:70px}/*大标题*/
+		h2{font-size:32px;
+}/*小标题*/
+
+		.decoration{width:88%;
+					margin:0 auto;
+					margin-top:-150px}
+		
+		.picture{width:100%}
+/*导航栏不动部分结束*/
+		
+		main{width:83%;
+			margin-left:110px;
+			font-family:"Microsoft YaHei";
+			letter-spacing:1.5px;
+			line-height:2.5}
+		
+		.lastLe{width:85%;margin-left:90px;margin-top:110px;margin-bottom:50px}
+		article{width:85%;margin-left:90px;margin-top:80px;margin-bottom:100px}
+		
+		.secondHring{height:10px;
+					border:none;
+					border-top:3px solid #FAD27E;
+					margin-top:60px}/*第一条水平分割线*/
+
+		.letter{width:83%;
+				margin-left:110px;
+				font-size:17.1px;
+				width: 80%}/*信件*/
+		.oneQuestion{border:solid #FAD27E;
+					width:30%;
+					padding:30px;
+					padding-bottom:5px;
+					border-radius:35px;
+					margin-left:540px}/*第一、三个问题*/
+		
+		.questionTitle{
+			float:left;
+						font-size:21px;
+						margin-left:70px;
+						background-color:#FCEBC7;
+						margin-top:-60px;
+						padding-left:15px;
+						padding-right:15px;
+						border-radius:30px}/*第一、三个问题标题*/
+		
+		.onearticlePicture{float:left;
+							margin-left:160px;
+							margin-top:-430px}/*图片一、三*/
+		
+		
+		.twoQuestion{border:solid #FAD27E;
+					width:30%;
+					padding:30px;
+					padding-bottom:5px;
+					border-radius:35px;
+					margin-left:80px}/*第二、四个问题*/
+		
+		.twoquestionTitle{float:left;
+						font-size:21px;
+						margin-left:100px;
+						background-color:#FCEBC7;
+						margin-top:-60px;
+						padding-left:15px;
+						padding-right:15px;
+						border-radius:30px;
+						margin-left:78px}/*第二、四个问题标题*/
+		
+		.twoarticlePicture{float:left;
+							margin-left:550px;
+							margin-top:-450px}/*图片二、四*/
+		
+		 div p a{text-decoration:none;
+				color:#000000;
+				font-family:"Microsoft YaHei";
+				font-size:17.1px;
+				display:block}
+		.answer{background-color:#FCEBC7;
+				border-radius:30px;
+				margin-right:23=50px;
+				text-align:center}/*答案*/
+		
+		.lastAnswer{margin-left:400px;
+					background-color:#FBE0A6;
+					border-radius:30px;
+					width:30%;
+					text-align:center}/*底部答案完整解析*/
+		
+		aside{width:83%;
+			margin-left:110px;
+			font-family:"Microsoft YaHei";
+			letter-spacing:1.5px;
+			line-height:2.1;font-size:17px}
+		
+		aside p{width:85%;
+			margin-left:90px;
+			margin-top:40px;
+			margin-bottom:65px}
+		
+/*===尾部不动部分===*/
+		footer{width:88%;
+				margin:0 auto;
+				font-family:"Microsoft YaHei";
+				letter-spacing:1.5px;
+				background:#B6DBC6;
+				color: #FFFFFF; 
+				text-align:center;
+				padding-top:0.5px;
+				padding-bottom:1px}
+		
+			.ending{line-height:2.5;
+					font-size:14px; }	
+		
+			/*尾部邮箱链接*/
+			footer p a{list-style-type:none;
+					text-decoration:none;
+					font-family:"Microsoft YaHei";
+					font-size:14px;color:#FFFFFF}
+/*尾部不动部分结束*/
+		-->
+	</style>
+</head>
+
+<body>
+	<header>		
+
+		
+		<!--===导航栏部分开始===-->
+		<div>
+			<nav>
+				<ul>
+				
+					<li><a href="NLP小贴士.html" title="NLP小贴士" target="_self">NLP小贴士</a></li>
+
+					<li class="background"><a href="知识问答.html" title="知识问答小版块" target="_self">知识问答小版块</a></li>
+				</ul>
+			</nav>	
+		</div>
+		<!--导航栏部分结束-->
+		
+		<!--===标题框开始===-->
+		<div class="title">
+			<h1>NLP知识小问答</h1>
+			<h2>小朋友们准备好了吗</h2>
+		</div>
+	</header>
+	
+	<div class="decoration">
+		<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-06006.png" alt="装饰" class="picture"><!--装饰-->
+	</div>
+		
+	<main>
+	<!--===文章开始===-->
+		<!--===信件开始===-->
+		<div class="lastLetter">
+			<p class="letter">
+			
+			<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小提示:回答完所有问题后再查看答案与解析会效果更好哦</b>
+			</p>		
+		</div>
+		<!--信件结束-->
+		
+		<hr class="secondHring"><!--独立部分水平分割线-->
+			
+	<!--===问题开始===-->
+		<!--===第一部分开始===-->
+		<div>
+			<article class="oneQuestion">
+				<h3 class="questionTitle">Question 1</h3>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下面哪个是NLP用例?<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A.从图像中检测物体<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B.面部识别<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C.语音生物识别<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D.文本摘要
+				</p>
+				<div class="answer">
+					<p><a href="知识问答答案.html">点击查看答案</a></p>
+				</div>
+			</article>
+			
+			
+			<figure class="onearticlePicture">
+				<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-06002.jpg"  width="350">
+			</figure>		
+		</div>
+		<!--第一部分结束-->
+
+		<!--===第二部分开始===-->
+		<div>
+			<article class="twoQuestion">
+				<h3 class="twoquestionTitle">Question 2</h3>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下列哪一项不是预处理技术？<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A.词干提取和词形还原<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B.转换成小写&nbsp;&nbsp;&nbsp;&nbsp;<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C.删除标点符号&nbsp;&nbsp;&nbsp;&nbsp;<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D.删除停用词<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E.情绪分析
+				</p>
+				<div class="answer">
+					<p><a href="知识问答答案.html">点击查看答案</a></p>
+				</div>
+			</article>
+			
+			
+			<figure class="twoarticlePicture">
+				<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-06007.jpg"  width="380">
+			</figure>		
+		</div>
+		<!--第二部分结束-->
+		
+		<!--===第三部分开始===-->	
+		<div>
+			<article class="oneQuestion">
+				<h3 class="questionTitle">Question 3</h3>
+				<p>
+					从给定的句子、段落中识别人名、组织名的过程称为？<br>
+					A.词干提取&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					B. 词形还原&nbsp;&nbsp;&nbsp;&nbsp;<br>
+					C.停用词消除&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;D.命名实体识别
+				</p>
+				<div class="answer">
+					<p><a href="知识问答答案.html">点击查看答案</a></p>
+				</div>
+			</article>
+			
+			
+			<figure class="onearticlePicture">
+				<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-06010.jpg"  width="340">
+			</figure>		
+		</div>
+		<!--第三部分结束-->
+
+		<!--===第四部分开始===-->
+		<div>
+			<article class="twoQuestion">
+				<h3 class="twoquestionTitle">Question 4</h3>
+				<p>
+					下列哪项是关键词归一化技术（多选）<br>
+					A. 词干提取&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					B. 词性标注<br>
+					C. 命名实体识别&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;D. 词形还原
+				</p>
+				<div class="answer">
+					<p><a href="知识问答答案.html">点击查看答案</a></p>
+				</div>
+			</article>
+			
+			
+			<figure class="twoarticlePicture">
+				<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-06014.jpg" width="370">
+			</figure>		
+		</div>
+		<!--第四部分结束-->	
+	<div>
+		<hr class="secondHring">
+	</div>
+	
+	<div class="lastAnswer">
+		<p><a href="知识问答答案.html">点击查看答案与解析</a></p>
+	</div>
+	</main>
+	
+	<aside>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;同学们答对了多少题呢？没有答对也不要灰心，相信大家通过这次的学习一定收获到了更多知识。<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;希望大家能够继续喜欢与了解NLP知识！
+		</p>
+	</aside>
+	
+	<footer>
+		<p>Copyright&copy;佘雨琪&amp;刘梓玲&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<br />指导老师：彭俊杰&nbsp;&nbsp;&nbsp;&nbsp;
+			<br />联系我们：1169591397@qq.com			
+		</p>	
+	</footer>
+</body>
+</html>
